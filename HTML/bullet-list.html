@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+ <meta charset="utf-8">
+ <meta description="This is Anupama's personl notes site.">
+  <head>
+     <title>Anupama's HTML Notes</title>
+  </head>
+  <body>
+   <h1>Anupama Tiwari</h1>
+   <p>UX/UI Designer</p>
+   <h3>Unordered Bullet List</h3>
+         <p>The "ul" element is for grouping a collection of items that do not have a numerical ordering, and their order in the list is meaningless. 
+          Typically, unordered-list items are displayed with a bullet, which can be of several forms, like a dot, a circle, or a square. 
+          The bullet style is not defined in the HTML description of the page, but in its associated CSS, using the list-style-type property.</p>
+         <ul> Here we go...
+             <li>first-level 1st item</li>
+             <li>first-level 2nd item
+                 <!-- Look, the closing </li> tag is not placed here! -->
+                 <ul>This example is for nesting list
+                     <li>second-level 1st subitem</li>
+                     <li>second-level 2nd subitem
+                         <!-- Same for the second nested unordered list! -->
+                         <ul> This example is for nesting within nested unordered list
+                         <li>third-level item second subitem 1st sub-subitem</li>
+                         <li>third-level item second subitem 2nd sub-subitem</li>
+                         <li>third-level item second subitem 3rd sub-subitem</li>
+                         </ul>
+                     </li> <!-- Closing </li> tag for the li that
+                    contains the third-level unordered list -->
+                     <li>second-level 3rd subitem</li>
+                     <li>second-level 4th subitem</li>
+                 </ul>
+             </li><!-- Closing </li> tag for the li that
+                contains the second-level unordered list -->
+             <li>first-level 3rd item</li>
+             <li>first-level 4th item</li>
+         </ul>
+      <h3>Ordered Bulet List</h3>
+         <ol>
+             <li>first-level <strong>1st</strong> bullet item</li>
+             <li>first-level <strong>2nd</strong> bullet item
+                 <!-- Look, the closing </li> tag is not placed here! -->
+                 <ul>Nesting with unordered bullet list
+
+                     <li>second-level first item <em>1st</em> subitem
+                         <!-- Look, the closing </li> tag is not placed here! -->
+                         <ol type="1"> Here is default numbered bullet list
+                         <li>second-level first item first subitem 1st sub-subitem</li>
+                         <li>second-level first item first subitem 2nd sub-subitem</li>
+                         <li>second-level first item first subitem 3rd sub-subitem</li>
+                         </ol>
+                     </li><!-- Closing </li> tag for the li that
+                     contains the third unordered list -->
+
+                     <li>second-level first item <em>2nd</em> subitem
+                         <!-- Look, the closing </li> tag is not placed here! -->
+                         <ol type="a"> Here is lowercase-letter bullet list
+                         <li>second-level first item first subitem 1st sub-subitem</li>
+                         <li>second-level first item first subitem 2nd sub-subitem</li>
+                         <li>second-level first item first subitem 3rd sub-subitem</li>
+                         </ol>
+                     </li><!-- Closing </li> tag for the li that
+                     contains the third unordered list -->
+
+                     <li>second-level first item <em>3rd</em> subitem
+                         <!-- Look, the closing </li> tag is not placed here! -->
+                         <ol type="A"> Here is uppercase-letter bullet list
+                         <li>second-level first item first subitem 1st sub-subitem</li>
+                          <li>second-level first item first subitem 2nd sub-subitem</li>
+                         <li>second-level first item first subitem 3rd sub-subitem</li>
+                         </ol>
+                      </li><!-- Closing </li> tag for the li that
+                      contains the third unordered list -->
+
+                     <li>second-level first item <em>4th</em> subitem
+                         <!-- Look, the closing </li> tag is not placed here! -->
+                         <ol type="i"> Here is lowercase-Roman numerals bullet list
+                         <li>second-level first item first subitem 1st sub-subitem</li>
+                         <li>second-level first item first subitem 2nd sub-subitem</li>
+                         <li>second-level first item first subitem 3rd sub-subitem</li>
+                         </ol>
+                     </li><!-- Closing </li> tag for the li that
+                     contains the third unordered list -->
+
+                     <li>second-level first item <em>5th</em> subitem
+                         <!-- Look, the closing </li> tag is not placed here! -->
+                         <ol type="I"> Here is uppercase-Roman numerals bullet list
+                         <li>second-level first item first subitem 1st sub-subitem</li>
+                         <li>second-level first item first subitem 2nd sub-subitem</li>
+                         <li>second-level first item first subitem 3rd sub-subitem</li>
+                         </ol>
+                     </li><!-- Closing </li> tag for the li that
+                     contains the third unordered list -->
+
+                     <li>second-level first item <em>6th</em> subitem
+                         <!-- Look, the closing </li> tag is not placed here! -->
+                         <ol start="7"> Here is customised numerals bullet list
+                         <li>second-level first item first subitem 1st sub-subitem</li>
+                         <li>second-level first item first subitem 2nd sub-subitem</li>
+                         <li>second-level first item first subitem 3rd sub-subitem</li>
+                         </ol>
+                     </li><!-- Closing </li> tag for the li that
+                     contains the third unordered list -->
+                 
+                     <li>second-level first item <em>7th</em> subitem
+                         <!-- Look, the closing </li> tag is not placed here! -->
+                         <ol reversed="1"> Here is defualt reversed numerals bullet list
+                         <li>second-level first item first subitem 1st sub-subitem</li>
+                         <li>second-level first item first subitem 2nd sub-subitem</li>
+                         <li>second-level first item first subitem 3rd sub-subitem</li>
+                         </ol>
+                     </li><!-- Closing </li> tag for the li that
+                     contains the third unordered list -->
+                 
+                  </ul>
+             <li>first-level <strong>3rd</strong> bullet list</li>
+             <li>first-level <strong>4th</strong> bullet list</li>
+         </ol>
+    </body>
+</html>
