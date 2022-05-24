@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+ <meta charset="utf-8">
+ <meta description="This is Anupama's personl notes site.">
+  <head>
+     <img src="anu.png" alt="Anupama profile picture" srcset="">
+     <title>Anupama's HTML Notes</title>
+  </head>
+  <body>
+      <h1>HTML Table</h1>
+      <p>Please note that this includes deprecated attributes</p>
+      <p>Simple HTML Table</p>
+      <table>
+          <tr>
+              <td>This is table data 1 of Row 1</td>
+              <td>This is table data 2 of Row 1</td>
+              <td>This is table data 3 of Row 1</td>
+          </tr>
+          <tr>
+            <td>This is table data 1 of Row 2</td>
+            <td>This is table data 2 of Row 2</td>
+            <td>This is table data 3 of Row 2</td>
+        </tr>
+        <tr>
+            <td>This is table data 1 of Row 2</td>
+            <td>This is table data 2 of Row 2</td>
+            <td>This is table data 3 of Row 2</td>
+        </tr>
+      </table>
+      <hr>
+      <p>HTML Table with header and border</p>
+      <table border="1">
+          <tr>
+              <th>Heading for Column 1</th>
+              <th>Heading for Column 2</th>
+              <th>Heading for Column 3</th>
+          </tr>
+          <tr>
+             <td>Table data 1 of Column 1</td>
+             <td>Table data 1 of Column 2</td>
+             <td>Table data 1 of Column 3</td>
+        </tr>
+        <tr>
+             <td>Table data 2 of Column 1</td>
+             <td></td>
+             <td>Table data 2 of Column 3</td>
+        </tr>
+      </table>
+      <hr>
+      <p>HTML Table with header and cell padding</p>
+      <table bgcolor="#CACACA" cellpadding="20">
+          <tr>
+              <th>Heading for Column 1</th>
+              <th>Heading for Column 2</th>
+              <th>Heading for Column 3</th>
+          </tr>
+          <tr>
+             <td>Table data 1 of Column 1</td>
+             <td>Table data 1 of Column 2</td>
+             <td>Table data 1 of Column 3</td>
+        </tr>
+        <tr>
+             <td>Table data 2 of Column 1</td>
+             <td></td>
+             <td>Table data 2 of Column 3</td>
+        </tr>
+      </table>
+      <hr>
+      <p>Table with header, body, and footer</p>
+         <table>
+         <thead>
+             <tr>
+             <th>Header content 1</th>
+             <th>Header content 2</th>
+             </tr>
+         </thead>
+         <tbody>
+             <tr>
+             <td>Body content 1</td>
+             <td>Body content 2</td>
+             </tr>
+         </tbody>
+         <tfoot>
+             <tr>
+             <td>Footer content 1</td>
+             <td>Footer content 2</td>
+             </tr>
+         </tfoot>
+       </table>
+       </body>
+       </html>
