@@ -1,0 +1,68 @@
+/*Best Practice: put styles in alphabetical order*/
+
+
+/*********************** Tag Selectors ***************************/
+
+body {
+    background-color: #232320;
+    color: #eeeeee;
+    margin: 20px;
+    font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #eeeeee;
+    border-width: 5px;
+    width: 5%;
+}
+
+h1 {
+    color: aqua;
+    font-weight: 200;
+    font-size: 3.5em;
+    letter-spacing: -1.5px;
+    line-height: 110%;
+}
+
+
+/*An example of Psuedo class*/
+
+img:hover {
+    background-color: aqua;
+}
+
+
+/*********************** Class Selectors ***************************/
+
+
+/*The CSS class Selector
+The class selector selects HTML elements with a specific class attribute.
+HTML elements can also refer to more than one class.*/
+
+.animals {
+    background-color: beige;
+}
+
+img.circular {
+    border-radius: 50% 20% / 10% 40%;
+    border-color: #20bb0f;
+}
+
+.music {
+    background-color: gold;
+}
+
+
+/*********************** ID Selectors ***************************/
+
+
+/* The id selector uses the id attribute of an HTML element to select a specific element.
+The id of an element is unique within a page, so the id selector is used to select one unique element!*/
+
+#love {
+    font-weight: 600;
+    font-family: monospace;
+    font-size: large;
+}
